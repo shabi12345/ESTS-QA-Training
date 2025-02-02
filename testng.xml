@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite">
+    <listeners>
+        <!-- Register the TestListener here -->
+        <listener class-name="TestListener"/>
+    </listeners>
+
+    <test name="Login and Add Employee Test">
+        <classes>
+            <!-- Specify the test classes here -->
+            <class name="LoginAndAddEmployeeTest"/>
+        </classes>
+    </test>
+</suite>

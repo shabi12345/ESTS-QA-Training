@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-14T20:08:35 PKT" name="Default suite" finished-at="2025-01-14T20:08:39 PKT" duration-ms="3806">
+    <groups>
+    </groups>
+    <test started-at="2025-01-14T20:08:35 PKT" name="Default test" finished-at="2025-01-14T20:08:39 PKT" duration-ms="3806">
+      <class name="Page_Object_Model.Tests">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Page_Object_Model.Tests@cecf639]" started-at="2025-01-14T20:08:35 PKT" name="OpenBrowser" finished-at="2025-01-14T20:08:39 PKT" duration-ms="3712" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Unhandled exception type IOException
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Unhandled exception type IOException
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+
+at Page_Object_Model.Search_Page.<init>(Search_Page.java:16)
+at Page_Object_Model.Tests.OpenBrowser(Tests.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="Add_Employee_PIM()[pri:0, instance:Page_Object_Model.Tests@cecf639]" started-at="2025-01-14T20:08:39 PKT" name="Add_Employee_PIM" finished-at="2025-01-14T20:08:39 PKT" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Unhandled exception type IOException
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Unhandled exception type IOException
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+The method enterText(By, String) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement, String)
+The method ClickButton(By) in the type Base_Class_Wrapper is not applicable for the arguments (WebElement)
+
+at Page_Object_Model.Search_Page.<init>(Search_Page.java:16)
+at Page_Object_Model.Tests.OpenBrowser(Tests.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Employee_PIM -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Page_Object_Model.Tests@cecf639]" started-at="2025-01-14T20:08:39 PKT" name="CloseBrowser" finished-at="2025-01-14T20:08:39 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- Page_Object_Model.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
